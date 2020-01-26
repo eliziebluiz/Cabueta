@@ -13,7 +13,7 @@ class FileController {
     report.files.push(file)
     await report.save()
 
-    return res.status(200).send("foi").json(file)
+    return res.status(200).send("Operação Realizada com Sucesso").json(file)
   }
 }
 module.exports = new FileController()

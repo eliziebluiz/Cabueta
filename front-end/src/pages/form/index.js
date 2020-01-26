@@ -87,10 +87,8 @@ export default function DialogSelect(props) {
       q4,
       obs
     }
-    alert('foi')
     const response = await api.post('/report', data);
     localStorage.setItem('id', response.data._id)
-    alert('ch')
     setCont(1);
     window.location.reload()
     // handleUpload()
