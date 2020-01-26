@@ -1,0 +1,20 @@
+{
+  "name": "backend_craw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0"
+  }
+}
